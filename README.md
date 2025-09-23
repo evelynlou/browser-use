@@ -3,7 +3,6 @@
 Conteúdo
 
 - [O que é Browser-Use?](#O-que-é-Browser-Use?)
-- [Como funciona](#Como-funciona)
 - [Processo de Instalação](#Processo-de-Instalação)
 - [Configuração dos arquivos](#Configuração-dos-arquivos)
 - [Preços das IAs](#Preços-das-IAs)
