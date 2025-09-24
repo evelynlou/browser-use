@@ -30,7 +30,7 @@ O navegador é controlado pelo **Playwright**, que abre o Chromium/Firefox/WebKi
 
 ## Processo de Instalação
 
-1. **Python 3.11**  
+1. **Python 3.11 ou Superior** 
    - Download: [Python 3.11.9](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)  
    - Ou via Windows Terminal / PowerShell:  
    ```
