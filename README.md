@@ -7,6 +7,7 @@ Conteúdo
 - [Configuração dos arquivos](#Configuração-dos-arquivos)
 - [Preços das IAs](#Preços-das-IAs)
 - [ Exportando automação para outros frameworks](#Exportando-automação-para-outros-frameworks)
+- [Vantagem x Desvantagem do Browser-use](#Vantagem-x-Desvantagem-do-Browser-use)
 
 ---
 
@@ -106,13 +107,7 @@ Você pode usar LLMs gratuitos, instalando localmente ou via Hugging Face:
 - **LLaMA 2 / LLaMA 3 (Meta)** → grátis, mas precisa de máquina com boa GPU ou quantização para CPU.  
 - **Falcon / Mistral / OpenLLaMA** → grátis, suporte a geração de texto, podem ser usados localmente.
 
-**Vantagem:** sem custos com API, mas exige recursos de hardware (GPU ou CPU potente) e configuração local.
-
-### ⚠️ Observações
-
-- Modelos gratuitos via API quase sempre têm **limite de uso diário ou mensal**.  
-- Para automações contínuas, o ideal é usar **uma versão local open-source** ou combinar **créditos gratuitos da OpenAI**.  
-- Browser-Use é compatível tanto com **APIs online** quanto **modelos locais**, então você pode testar sem gastar dinheiro.
+⚠️ **Observação**: Modelos gratuitos via API quase sempre têm limite diário/mensal. Para automações contínuas, prefira modelos locais ou combine créditos gratuitos com APIs pagas.
 
 
 ---
@@ -133,3 +128,23 @@ agent = Agent(
     task="Generate Cypress code to visit https://example.com and click the login button",
     llm=ChatOpenAI(model="gpt-3.5-turbo")
 )
+```
+
+## Vantagem x Desvantagem do Browser-use
+
+### ✅ Vantagens
+
+- Permite criar automações de forma rápida e simples, sem necessidade de escrever todo o script manualmente em frameworks como Selenium ou Playwright.
+
+- Possibilidade de exportar o código gerado para frameworks tradicionais (ex: Cypress, Selenium), o que ajuda na manutenção e reaproveitamento.
+
+- Excelente para prototipagem e testes rápidos, já que basta descrever em linguagem natural o que deseja fazer.
+
+### ❌ Desvantagens
+
+- Ao usar modelos de IA via API externa (OpenAI, Google, etc.), há custo por uso e limites de requisições.
+
+- Caso opte por modelos open-source locais, é necessário ter uma máquina potente (CPU/GPU) para rodar de forma eficiente.
+
+- Apesar de gerar código para frameworks, é importante ter conhecimento prévio neles para validar se o retorno está correto e seguro.
+
