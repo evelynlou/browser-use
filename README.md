@@ -131,6 +131,8 @@ agent = Agent(
 )
 ```
 
+---
+
 ## Browser-use Cloud
 
 Se você não quiser realizar a instalação e configuração localmente, também pode usar o Browser-use Cloud.
@@ -145,7 +147,7 @@ Se você não quiser realizar a instalação e configuração localmente, també
 
 Essa opção é ideal para quem quer agilidade ou está começando a explorar a ferramenta.
 
-```
+---
 
 ## Vantagem x Desvantagem do Browser-use
 
