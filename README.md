@@ -135,6 +135,8 @@ agent = Agent(
 
 ## Browser-use Cloud
 
+https://cloud.browser-use.com/
+
 Se você não quiser realizar a instalação e configuração localmente, também pode usar o Browser-use Cloud.
 
 - Basta criar uma conta de acesso.
