@@ -7,6 +7,7 @@ Conteúdo
 - [Configuração dos arquivos](#Configuração-dos-arquivos)
 - [Preços das IAs](#Preços-das-IAs)
 - [ Exportando automação para outros frameworks](#Exportando-automação-para-outros-frameworks)
+- [Browser-Use Cloud](#Browser-Use-Cloud)
 - [Vantagem x Desvantagem do Browser-use](#Vantagem-x-Desvantagem-do-Browser-use)
 
 ---
@@ -128,6 +129,22 @@ agent = Agent(
     task="Generate Cypress code to visit https://example.com and click the login button",
     llm=ChatOpenAI(model="gpt-3.5-turbo")
 )
+```
+
+## Browser-use Cloud
+
+Se você não quiser realizar a instalação e configuração localmente, também pode usar o Browser-use Cloud.
+
+- Basta criar uma conta de acesso.
+
+- Você pode rodar suas automações diretamente no ambiente deles.
+
+- Não há necessidade de configurar ou pagar por APIs externas.
+
+- Suporte tanto para desktop quanto mobile.
+
+Essa opção é ideal para quem quer agilidade ou está começando a explorar a ferramenta.
+
 ```
 
 ## Vantagem x Desvantagem do Browser-use
